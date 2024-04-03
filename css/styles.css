@@ -79,6 +79,52 @@
     font-family: 'Poppins-Semibold', sans-serif;
 }
 
+.content {
+    background-color: white;
+    width: 100%;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: 'Poppins-Semibold', sans-serif;
+    text-align: left;
+    padding-bottom: 75px;
+}
+
+.content p {
+    font-size: 1.2em;
+    width: 850px
+}
+
+.content-header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+}
+
+.content h2 {
+    font-weight: 800;
+}
+
+.content img {
+    border-radius: 10px;
+    width: 25%;
+}
+
+.content-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
 .footer {
     margin-left: auto;
     margin-right: auto;
@@ -88,7 +134,7 @@
 
 .footer-block {
     display: inline-block;
-    margin: 25px 50px;
+    margin: 20px 50px;
     text-align: left;
 }
 
@@ -107,4 +153,64 @@
     font-family: 'Poppins-Semibold', sans-serif;
     letter-spacing: 0.3px;
     font-weight: 500;
+}
+
+.contact-form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    font-family: 'Poppins-Semibold', sans-serif;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    font-family: 'Poppins-Semibold', sans-serif;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #33B6FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #1d7fb4;
 }
